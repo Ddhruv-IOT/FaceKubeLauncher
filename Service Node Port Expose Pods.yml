@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myservice1
+spec:
+  type: NodePort
+  selector:
+    dc: "India"
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30000
+  externalIPs:
+    - 80.11.12.10
