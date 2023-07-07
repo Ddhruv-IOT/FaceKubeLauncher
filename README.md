@@ -7,7 +7,7 @@
 
 ## About Project 🔥🔥
 
-The **FacePodLauncher** is an innovative application built using Python and OpenCV that combines facial recognition technology with the power of Kubernetes and Minikube. This project aims to create a seamless and automated system for launching a pod in Minikube based on the recognition of a specific face.
+The **FaceKubeLauncher** or **FacePodLauncher** is an innovative application built using Python and OpenCV that combines facial recognition technology with the power of Kubernetes and Minikube. This project aims to create a seamless and automated system for launching a pod in Minikube based on the recognition of a specific face.
 
 Using the OpenCV library, the application is capable of detecting and analyzing faces in real time through a webcam or recorded video feed. It leverages advanced face detection and recognition algorithms to identify the target face accurately. Once the specific face is recognized, the FacePodLauncher triggers the deployment of a pod in the Minikube environment. The pod can be customized to perform various tasks or execute specific applications tailored to the individual associated with the recognized face. The utilization of Kubernetes and Minikube allows for scalable and efficient deployment of pods, making it suitable for a wide range of applications. Whether it's launching a personalized workspace, initiating specific workflows, or automating personalized tasks, the FacePodLauncher offers endless possibilities. This project not only showcases the capabilities of facial recognition and Kubernetes technologies but also demonstrates the potential for integrating computer vision and containerization for personalized and secure computing environments.
 
